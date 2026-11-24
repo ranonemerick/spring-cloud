@@ -31,3 +31,23 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs & JVM Dumps ###
+*.log
+*.dump
+*.dumpstream
+hs_err_pid*
+
+### Local Databases (H2 / SQLite) ###
+*.mv.db
+*.trace.db
+*.db
+
+### OS & Temp Files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
